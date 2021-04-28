@@ -13,13 +13,13 @@ function SiteNav() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link className="text-center" href="#link">
+          <Nav.Link className="text-center" href="#portfolio">
             Portfolio
           </Nav.Link>
-          <Nav.Link className="text-center" href="#link">
+          <Nav.Link className="text-center" href="#about">
             About
           </Nav.Link>
-          <Nav.Link className="text-center" href="#link">
+          <Nav.Link className="text-center" href="#contact">
             Contact
           </Nav.Link>
         </Nav>

@@ -3,7 +3,7 @@ import "./style.css";
 
 function About() {
   return (
-    <div className="about-background">
+    <div className="about-background" id="about">
       <h1>About</h1>
     </div>
   );
