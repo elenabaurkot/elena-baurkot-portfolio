@@ -6,7 +6,7 @@
   letter-spacing: 2.5px;
 }
 
-.background {
+.home-background {
   height: 100vh;
   background-image: url("https://images.pexels.com/photos/1146642/pexels-photo-1146642.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-size: cover;
@@ -19,8 +19,8 @@ main {
   width: 95%;
   margin: 0 auto;
   padding-top: 15px;
-  height: 65vh;
-  display: flex;
+  height: 70vh;
+  display: flex !important;
   flex-direction: column;
   align-items: center;
   justify-content: center;
