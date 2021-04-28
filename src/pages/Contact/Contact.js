@@ -3,7 +3,7 @@ import "./style.css";
 
 function Contact() {
   return (
-    <div className="contact-background" id="contact">
+    <div className="background contact-background" id="contact">
       <h1>Contact</h1>
     </div>
   );

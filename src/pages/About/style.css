@@ -2,12 +2,38 @@
   font-family: "Nunito", sans-serif;
 }
 
-.about-background {
+.background {
   height: 100vh;
-  background-image: url("https://images.pexels.com/photos/3124958/pexels-photo-3124958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
+.about-background {
+  background-image: url("https://images.pexels.com/photos/3124958/pexels-photo-3124958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+#about-section {
+  width: 90%;
+  margin: 2% auto;
+  background-color: rgba(245, 242, 242, 0.6);
+  padding: 2%;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 700px) {
+  #about-section {
+    width: 70%;
+    margin: 5% auto;
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #about-section {
+    font-size: 1.4em;
+  }
+}

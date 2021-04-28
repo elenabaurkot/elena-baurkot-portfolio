@@ -7,12 +7,7 @@
 }
 
 .home-background {
-  height: 100vh;
   background-image: url("https://images.pexels.com/photos/1146642/pexels-photo-1146642.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
 }
 
 main {
@@ -31,7 +26,7 @@ section {
   text-align: center;
 }
 
-h1 {
+#main-page-header {
   font-size: 30px;
   opacity: 0;
   animation: fadeIn 2s;
