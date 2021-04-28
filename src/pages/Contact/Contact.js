@@ -4,7 +4,9 @@ import "./style.css";
 function Contact() {
   return (
     <div className="background contact-background" id="contact">
-      <h1>Contact</h1>
+      <section id="contact-section">
+        <h2>How to Reach Me</h2>
+      </section>
     </div>
   );
 }
