@@ -41,7 +41,7 @@
 }
 .icon:hover {
   font-size: 2.9em;
-  fill: rgb(179, 179, 244);
+  fill: rgb(165, 165, 187);
 }
 
 @media screen and (min-width: 700px) {
