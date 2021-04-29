@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
+  min-height: fit-content !important;
 }
 
 .flex {
@@ -22,9 +23,17 @@
   background-color: rgba(245, 242, 242, 0.6);
   padding: 2%;
   border-radius: 15px;
+  overflow: scroll;
 }
 
 @media screen and (min-width: 700px) {
+  #about-section {
+    margin: 2% auto;
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 900px) {
   #about-section {
     width: 70%;
     margin: 5% auto;

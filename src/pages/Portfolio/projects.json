@@ -1,8 +1,44 @@
 [
-    {
-        "id": 1,
-        "name": "",
-        "image": ""
-        
-    }
+  {
+    "id": 1,
+    "title": "Rock, Paper, Scissors",
+    "image": "https://res.cloudinary.com/dsxuuory9/image/upload/v1618690958/portfolio/Screen_Shot_2021-04-17_at_4.22.05_PM_smxjyk.png",
+    "github": "https://github.com/elenabaurkot/RPS",
+    "site-link": "https://elenabaurkot.github.io/RPS/"
+  },
+  {
+    "id": 2,
+    "title": "YellowChat",
+    "image": "https://res.cloudinary.com/dsxuuory9/image/upload/v1589120514/portfolio/Screen_Shot_2020-05-10_at_10.17.50_AM_ytlsdw.png",
+    "github": "https://github.com/elenabaurkot/yellowChat",
+    "site-link": "https://pure-inlet-94263.herokuapp.com/"
+  },
+  {
+    "id": 3,
+    "title": "FlipCards",
+    "image": "https://res.cloudinary.com/dsxuuory9/image/upload/v1589205222/portfolio/Screen_Shot_2020-05-11_at_9.53.37_AM_zp7vvv.png",
+    "github": "https://github.com/elenabaurkot/flipcards",
+    "site-link": "http://flipcards2020.herokuapp.com/"
+  },
+  {
+    "id": 4,
+    "title": "Book Search",
+    "image": "https://res.cloudinary.com/dsxuuory9/image/upload/v1589245385/portfolio/Screen_Shot_2020-05-11_at_9.03.00_PM_jvq3kq.png",
+    "github": "https://github.com/elenabaurkot/google-books-search",
+    "site-link": "https://evening-thicket-54254.herokuapp.com/"
+  },
+  {
+    "id": 5,
+    "title": "Weather Dashboard",
+    "image": "https://res.cloudinary.com/dsxuuory9/image/upload/v1589206175/portfolio/Screen_Shot_2020-05-11_at_10.09.30_AM_rmszdw.png",
+    "github": "https://github.com/elenabaurkot/weatherDashboard",
+    "site-link": "https://elenabaurkot.github.io/weatherDashboard/"
+  },
+  {
+    "id": 6,
+    "title": "Day Planner",
+    "image": "https://res.cloudinary.com/dsxuuory9/image/upload/v1589205978/portfolio/Screen_Shot_2020-05-10_at_10.20.05_AM_rhqpza.png",
+    "github": "https://github.com/elenabaurkot/dayPlanner",
+    "site-link": "https://elenabaurkot.github.io/dayPlanner/"
+  }
 ]
