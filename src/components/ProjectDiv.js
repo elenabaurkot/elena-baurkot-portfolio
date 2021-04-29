@@ -13,7 +13,12 @@ function ProjectDiv(props) {
       <div className="proj-drop proj-box">
         <h3>{props.title}</h3>
         <p>{props.description}</p>
-        <a href={props.site} target="_blank" className="site-btn">
+        <a
+          href={props.site}
+          target="_blank"
+          rel="noreferrer"
+          className="site-btn"
+        >
           Visit Site
         </a>
       </div>
