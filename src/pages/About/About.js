@@ -3,7 +3,7 @@ import "./style.css";
 
 function About() {
   return (
-    <div className="background about-background" id="about">
+    <div className="background flex about-background" id="about">
       <section id="about-section">
         <h2>What's My Story?</h2>
         <p>

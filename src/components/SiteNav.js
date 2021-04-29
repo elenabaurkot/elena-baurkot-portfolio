@@ -6,7 +6,6 @@ function SiteNav() {
     <Navbar
       style={{ backgroundColor: "rgba(235, 230, 230, 0.9)" }}
       fixed="top"
-      // bg="light"
       expand="lg"
     >
       <Navbar.Brand href="#home">Elena Baurkot</Navbar.Brand>
@@ -22,10 +21,12 @@ function SiteNav() {
           <Nav.Link className="text-center" href="#contact">
             Contact
           </Nav.Link>
-          <Nav.Link className="text-center">
-            <form method="get" action="file.doc">
-              <span type="submit">Resume</span>
-            </form>
+          <Nav.Link
+            className="text-center"
+            href="/files/ElenaBaurkotResume.pdf"
+            download
+          >
+            Resume
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div className="background contact-background" id="contact">
+    <div className="background flex contact-background" id="contact">
       <section id="contact-section">
         <div className="double-border">
           <h2>How to Reach Me</h2>

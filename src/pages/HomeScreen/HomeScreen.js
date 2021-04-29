@@ -5,7 +5,7 @@ import FullStackTypewriter from "../../components/FullStackTypewriter";
 
 function HomeScreen() {
   return (
-    <div className="background home-background" id="home">
+    <div className="background flex home-background" id="home">
       <main>
         <section>
           <h2 className="hello-typewriter">
