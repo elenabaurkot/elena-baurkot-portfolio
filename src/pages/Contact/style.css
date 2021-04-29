@@ -36,6 +36,10 @@
   font-size: 2.9em;
   fill: rgb(165, 165, 187);
 }
+.icon-link {
+  text-decoration: none;
+  color: rgb(165, 165, 187);
+}
 
 @media screen and (min-width: 700px) {
   #contact-section {

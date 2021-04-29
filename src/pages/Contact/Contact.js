@@ -12,8 +12,22 @@ function Contact() {
         <br></br>
         <p>Elenabaurkot@gmail.com</p>
         <p>908.448.9598</p>
-        <FaLinkedin className="icon" />
-        <FaGithub className="icon" />
+        <a
+          href="https://www.linkedin.com/in/elena-baurkot/"
+          target="_blank"
+          rel="noreferrer"
+          className="icon-link"
+        >
+          <FaLinkedin className="icon" />
+        </a>
+        <a
+          href="https://github.com/elenabaurkot"
+          target="_blank"
+          rel="noreferrer"
+          className="icon-link"
+        >
+          <FaGithub className="icon" />
+        </a>
       </section>
     </div>
   );
