@@ -1,11 +1,20 @@
 import React from "react";
+import ProjectDiv from "../../components/ProjectDiv";
 import "./style.css";
+import projects from "./projects.json";
 
 function Portfolio() {
   return (
-    <div className="background flex portfolio-background" id="portfolio">
-      <h2 id="portfolio-header">Portfolio</h2>
-    </div>
+    <section className="background portfolio-background" id="portfolio">
+      <div className="small-double-border">
+        <h2 id="portfolio-header">Portfolio</h2>
+      </div>
+      <div className="projectContainer">
+        {projects.map((project) => (
+          <ProjectDiv key={project.id} {...project} />
+        ))}
+      </div>
+    </section>
   );
 }
 

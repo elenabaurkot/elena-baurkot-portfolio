@@ -26,10 +26,11 @@
   overflow: scroll;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   #about-section {
-    margin: 2% auto;
-    font-size: 1em;
+    width: 80%;
+    margin: 5% auto;
+    font-size: 1.2em;
   }
 }
 
@@ -37,7 +38,7 @@
   #about-section {
     width: 70%;
     margin: 5% auto;
-    font-size: 1.1em;
+    font-size: 1.3em;
   }
 }
 
