@@ -33,14 +33,6 @@
   },
   {
     "id": 5,
-    "title": "Weather Dashboard",
-    "image": "https://res.cloudinary.com/dsxuuory9/image/upload/v1589206175/portfolio/Screen_Shot_2020-05-11_at_10.09.30_AM_rmszdw.png",
-    "github": "https://github.com/elenabaurkot/weatherDashboard",
-    "site": "https://elenabaurkot.github.io/weatherDashboard/",
-    "description": "Search the current weather or the five day forecast. Technologies used include Javascript, jQuery, AJAX and local storage."
-  },
-  {
-    "id": 6,
     "title": "Day Planner",
     "image": "https://res.cloudinary.com/dsxuuory9/image/upload/v1589205978/portfolio/Screen_Shot_2020-05-10_at_10.20.05_AM_rhqpza.png",
     "github": "https://github.com/elenabaurkot/dayPlanner",
